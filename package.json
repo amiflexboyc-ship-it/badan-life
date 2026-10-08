@@ -1,0 +1,15 @@
+{
+  "name": "ibadan-life",
+  "version": "1.0.0",
+  "description": "Ibadan Life - An immersive Nigerian Life Simulator & Role-Playing Game",
+  "main": "server/server.js",
+  "scripts": {
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "node --watch server/server.js",
+    "start": "node server/server.js",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server"
+  },
+  "keywords": ["ibadan", "nigeria", "rpg", "life-sim", "game"],
+  "author": "",
+  "license": "MIT"
+}
